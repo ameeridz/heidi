@@ -22,7 +22,7 @@
 		margin-bottom: 20px;
 	}
 	.navbar-nav li a {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.subscribe-row h5 {
 		font-size:18px;
@@ -67,6 +67,9 @@
 	}
 	.about-img {
 		margin-right:15px;
+	}
+	.container-fluid {
+		padding:0 45px;
 	}
 }
 @media only screen and (max-width: 1199px) {
@@ -128,13 +131,17 @@
 	.menu-trigger {
 		margin:0;
 	}
+	.container-fluid {
+		padding:0 45px;
+	}
+	
 }
 @media only screen and (max-width: 991px) {
 	.welcome-box {
 		padding: 150px 0px;
 	}
 	.navbar-nav li a {
-		font-size:20px;
+		font-size:15px;
 	}
 	.navbar-nav li {
 		margin-left:25px;
@@ -185,6 +192,7 @@
 	}
 	.container-fluid {
 		padding:0 0px;
+		padding-right: 25px;
 	}
 	.skills-ul {
 		top: 0;
@@ -198,7 +206,7 @@
 		position: fixed;
 		top: 0;
 		z-index: 6666;
-		background-color: #29336f88;
+		background-color: #29336f76
 	}
 	#navigation button i {
 		color: #ffffff;
@@ -214,11 +222,11 @@
 		margin: 0;
 		color: #fff;
 		font-size: 28px;
-		position: absolute;
+		position: fixed;
 		right: 20px;
-		top: 50%;
+		top: 4.5%;
 		background:none;
-		-webkit-transform: translateY(-50%);
+		-webkit-transform: translateY(0%);
 		transform: translateY(-50%);
 		display:block;
 		box-shadow:none;
@@ -249,7 +257,7 @@
 	}
 	.navigation-menu > li > a {
 		color:#222;
-		padding:15px;
+		padding:20px;
 		line-height:1.2;
 	}
 	.navbar-nav {

@@ -7,7 +7,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
+  font: 15px/1.6 'Raleway', Arial, Helvetica, sans-serif;
   color: #fff;
   text-align:center;
   background: #222;
@@ -268,7 +268,7 @@ video {
 02. HEADER CSS
 ================================================*/
 #header {
-  padding:20px 300px;
+  padding:20px 0px;
   position: fixed;
   left:0;
   right:0;
@@ -277,6 +277,7 @@ video {
 }
 .container-fluid {
   padding: 0px;
+  padding-right: 350px;
 }
 a#logo {
   text-decoration: none;
@@ -300,7 +301,7 @@ a#logo {
 }
 .navbar-nav li a {
   color:#fff;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration:none;
   display:block;
   font-weight: 500;

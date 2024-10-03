@@ -195,9 +195,9 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  background: -moz-linear-gradient(left, #A83882 0%, #29346F 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #A83882 0%,#29346F 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #A83882 0%,#29346F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(left, #70084d 0%, #29346F 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #70084d 0%,#29346F 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #70084d 0%,#29346F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
   height: 100%;
   left: 0;
@@ -268,7 +268,7 @@ video {
 02. HEADER CSS
 ================================================*/
 #header {
-  padding:20px 0;
+  padding:20px 300px;
   position: fixed;
   left:0;
   right:0;
@@ -276,7 +276,7 @@ video {
   z-index:999;
 }
 .container-fluid {
-  padding:0 20px;
+  padding: 0px;
 }
 a#logo {
   text-decoration: none;
@@ -300,7 +300,7 @@ a#logo {
 }
 .navbar-nav li a {
   color:#fff;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration:none;
   display:block;
   font-weight: 500;

@@ -134,7 +134,7 @@
 		padding: 150px 0px;
 	}
 	.navbar-nav li a {
-		font-size:13px;
+		font-size:20px;
 	}
 	.navbar-nav li {
 		margin-left:25px;
@@ -184,7 +184,7 @@
 		font-size: 20px;
 	}
 	.container-fluid {
-		padding:0 15px;
+		padding:0 0px;
 	}
 	.skills-ul {
 		top: 0;

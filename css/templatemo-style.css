@@ -67,7 +67,7 @@ h6 {
 }
 h1,
 h2 {
-  font-size: 32px;
+  font-size: 50px;
 }
 h3 {
   font-size: 30px;
@@ -301,7 +301,7 @@ a#logo {
 }
 .navbar-nav li a {
   color:#fff;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration:none;
   display:block;
   font-weight: 500;
@@ -446,7 +446,7 @@ a#logo {
   font-weight: 300;
 }
 .about-contentbox h2 {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 700;
 }
 .facts-list {

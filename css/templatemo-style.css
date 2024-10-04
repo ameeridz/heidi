@@ -110,12 +110,12 @@ video {
 }
 #video:after {
   content: '';
-  opacity: 0.75;
-  background: #241b38; /* Old browsers */
-  background: -moz-linear-gradient(top, #241b38 0%, #3e1552 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #241b38 0%,#46105f 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #241b38 0%,#3b0a52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
+  opacity: 0.85;
+  background: #A83882; /* Old browsers */
+  background: -moz-linear-gradient(top, #180725 0%, #180725 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #180725 0%,#180725 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #180725 0%,#180725 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#180725' , endColorstr='#180725',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
   top:0;

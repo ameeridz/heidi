@@ -200,3 +200,12 @@
         });
     });
 })(jQuery, window, document);
+
+document.getElementById("chatbot-icon").addEventListener("click", function() {
+    var chatbotQuestions = document.getElementById("chatbot-questions");
+    if (chatbotQuestions.style.display === "none") {
+        chatbotQuestions.style.display = "block";
+    } else {
+        chatbotQuestions.style.display = "none";
+    }
+});

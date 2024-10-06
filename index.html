@@ -157,6 +157,7 @@
                 </div>
                 <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/down-chevron.png" style="height: 40px;"alt=""></div>
             </div>
+            
 
             <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
@@ -274,8 +275,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/down-chevron.png" style="height: 40px;"alt=""></div>
             </div>
-            <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/down-chevron.png" style="height: 40px;"alt=""></div>
+            
             
             <div class="section animated-row" data-section="slide04">
                 <div class="section-inner">
@@ -577,16 +579,28 @@
         </div>
 
         <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/HeiTechPaduBerhad" target="blank" title="FaceBook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.heitech.com.my" target="blank" title="HeiTech Padu"><i class="fa fa-globe"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/heitechpaduberhad" target="blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#top" target="blank" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
-                    <li><a href="#slide01" title="go to top"><i class= "fa fa-arrow-up"></i></a></li>
-                </ul>
-            </div>
-        </div>
+            <ul class="social-icons">
+                <!-- Existing icons -->
+                <li><a href="https://www.facebook.com/HeiTechPaduBerhad" target="blank" title="FaceBook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.heitech.com.my" target="blank" title="HeiTech Padu"><i class="fa fa-globe"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/heitechpaduberhad" target="blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#top" target="blank" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="#slide01" title="go to top"><i class="fa fa-arrow-up"></i></a></li>
+        
+                <!-- Chatbot icon -->
+                <li>
+                    <a href="#" id="chatbot-icon"><i class="fa fa-comments"></i></a>
+                    <!-- Move dropdown here inside the li -->
+                    <div id="chatbot-questions" style="display: none;">
+                        <ul>
+                            <li><a href="#">General Question</a></li>
+                            <li><a href="#">Product Inquiry</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>        
     </div>  
 
     <script src="js/jquery.js"></script>

@@ -332,6 +332,42 @@ a#logo {
   display:block;
 }
 
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+
 /*==============================================
 03. SOCIAL ICONS CSS
 ================================================*/

@@ -126,7 +126,7 @@
 	  text-align:center;
 	  background: rgba(255, 255, 255, 0.1);
 	  color: rgba(255,255,255,1);
-	  font-size:25px;
+	  font-size:20px;
 	}
 	.menu-trigger {
 		margin:0;
@@ -234,6 +234,25 @@
 		outline: none;
 		cursor:pointer;
 	}
+
+	.dropdown-menu {
+        width: 100%;  /* Full width for mobile */
+        left: 0;
+        right: 0;  /* Make sure it's aligned to the screen edges */
+        box-shadow: none;  /* Remove the shadow for a cleaner look on mobile */
+    }
+
+    .dropdown-menu li a {
+        font-size: 18px;  /* Adjust font size for better readability on smaller screens */
+        padding: 10px 15px;  /* Ensure proper padding */
+        text-align: left;  /* Align text to the left for readability */
+    }
+
+    /* If needed, adjust the button that opens the menu */
+    .dropdown-toggle {
+        width: 100%;  /* Make sure it spans the width of the screen */
+        padding: 10px;
+    }
 	#header {
 		padding:0;
 	}

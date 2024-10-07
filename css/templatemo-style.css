@@ -334,7 +334,7 @@ a#logo {
 
 .dropdown-menu {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #00000000;
   list-style-type: none;
   padding: 0;

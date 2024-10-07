@@ -275,14 +275,15 @@
 		text-align: center;
 	}
 	.navigation-menu > li > a {
-		color:#222;
+		color:#ffffff;
 		padding:20px;
 		line-height:1.2;
 	}
 	.navbar-nav {
 		overflow-y: auto;
 		display:block;
-		background: rgba(230, 230, 230, 0.25);
+		background: rgb(22 5 32 / 85%);
+		border-radius: 25px;
 	}
 	.navbar-nav li a:after {
 		display:none;
@@ -292,8 +293,9 @@
 		left: -15px;
 		right: -15px;
 		border: 0;
+		border-radius: 25px;
 		box-shadow: none;
-		background: #fff;
+		background: #000000bb;
 		text-align:left;
 		top: 100%;
 		display:none;

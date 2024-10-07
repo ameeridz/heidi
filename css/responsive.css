@@ -277,7 +277,7 @@
 	.navigation-menu > li > a {
 		color:#ffffff;
 		padding:20px;
-		line-height:1.2;
+		line-height:0.5;
 	}
 	.navbar-nav {
 		overflow-y: auto;

@@ -351,8 +351,8 @@ a#logo {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: #333;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: rgb(22 5 32 / 88%);
 }
 
 .dropdown-menu li a:hover {

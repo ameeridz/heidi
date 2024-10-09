@@ -124,7 +124,7 @@
 	  display:inline-block;
 	  line-height:45px;
 	  text-align:center;
-	  background: rgba(255, 255, 255, 0.1);
+	  background: #29346F;
 	  color: rgba(255,255,255,1);
 	  font-size:20px;
 	}
@@ -282,7 +282,7 @@
 	.navbar-nav {
 		overflow-y: auto;
 		display:block;
-		background: rgb(22 5 32 / 85%);
+		background: #29346F;
 		border-radius: 25px;
 	}
 	.navbar-nav li a:after {

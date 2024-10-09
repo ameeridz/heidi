@@ -290,8 +290,8 @@
 	}
 	.nav-box {
 		position: absolute;
-		left: -15px;
-		right: -15px;
+		left: 200px;
+		right: -315px;
 		border: 0;
 		border-radius: 25px;
 		box-shadow: none;

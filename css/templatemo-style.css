@@ -196,9 +196,9 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  background: -moz-linear-gradient(left, #ff86d7 0%, #899aff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #ff86d7 0%,#b4bfff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #ff86d7 0%,#899aff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(left, #ffb4e6 0%, #abb8ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffb4e6 0%,#abb8ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffb4e6 0%,#abb8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
   height: 100%;
   left: 0;
@@ -225,17 +225,17 @@ video {
   vertical-align: middle;
   -webkit-animation: bounce 0.6s infinite alternate;
   animation: bounce 0.6s infinite alternate;
-  background: #fff;
+  background: #A83882;
 }
 .preloader-bounce > span:nth-child(2){
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
-  background: #fff;
+  background: #853A83;
 }
 .preloader-bounce > span:nth-child(3){
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
-  background: #fff;
+  background: #29346F;
 }
 
 @-webkit-keyframes bounce {

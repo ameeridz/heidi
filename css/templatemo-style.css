@@ -150,8 +150,8 @@ video {
   border-radius: 10px;
 }
 .btn:hover, .btn:focus {
-  color:#fff;
-  border-color:#fff;
+  color:#29346F;
+  border-color:#29346F;
   background:none;
 }
 .btn:focus {
@@ -598,7 +598,7 @@ a#logo {
     width: 12px;
     height: 12px;
     margin: 0 5px;
-    background: rgba(255, 255, 255, .2)
+    background: rgba(68, 76, 153, 0.459)
 }
 
 .owl-carousel .owl-dots .owl-dot:focus {
@@ -606,7 +606,7 @@ a#logo {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #fff
+    background: #29346F
 }
 
 /*==============================================
@@ -668,19 +668,19 @@ a#logo {
 08. CONTACT BLOCK CSS
 ================================================*/
 ::-webkit-input-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
   opacity:1;
 }
 ::-moz-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
   opacity:1;
 }
 :-ms-input-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
   opacity:1;
 }
 :-moz-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
   opacity:1;
 }
 .input-field {
@@ -690,7 +690,7 @@ a#logo {
   height: 50px;
   color:#29346F;
   border: none;
-  background:rgba(250,250,250,0.05);
+  background:rgba(250,250,250,0.25);
   border: 1px solid #29346F;
   border-radius: 10px;
   padding:4px 22px;
@@ -701,28 +701,28 @@ a#logo {
   box-shadow:none;
   outline:none;
   background:rgba(0,0,0,0.05);
-  border: 1px solid rgba(250,250,250,1);
-  color:#fff;
+  border: 1px solid #29346F;
+  color:#29346F;
 }
 .index .form-control.form-control-dark {
-  background: rgba(250,250,250, 0.75);
-  color: #fff;
+  background: rgba(250,250,250, 0.55);
+  color: #29346F;
 }
 .index .form-control.form-control-dark:focus {
-  background: rgba(54, 40, 158, 0.85);
-  color: #fff;
+  background: rgba(54, 40, 158, 0.45);
+  color: #29346F;
 }
 .index .form-control.form-control-dark::-webkit-input-placeholder {
-  color: #fff !important;
+  color: #29346F !important;
 }
 .index .form-control.form-control-dark::-moz-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
 }
 .index .form-control.form-control-dark:-ms-input-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
 }
 .index .form-control.form-control-dark:-moz-placeholder {
-  color:#fff !important;
+  color:#29346F !important;
 }
 .form-control.form-control-dark:focus {
   background: rgba(0, 0, 0, 0.2);

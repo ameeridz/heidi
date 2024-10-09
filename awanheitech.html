@@ -67,8 +67,7 @@
                                         </ul>
                                     </li>
                                                                         <li data-menuanchor="slide05"><a href="#slide05">FAQs</a></li>
-                                    <li data-menuanchor="slide06"><a href="#slide06">Testimoni</a></li>
-                                    <li data-menuanchor="slide07"><a href="#slide07">Contact Us</a></li>
+                                    <li data-menuanchor="slide06"><a href="#slide06">Contact Us</a></li>
                                     <!-- Cart icon button -->
                                     <li class="nav-item">
                                         <a href="https://ameeridz.github.io/heidi/comingsoon" target="blank" title="Marketplace">
@@ -550,11 +549,25 @@
                                     </div>                                    
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <form id="ajax-contact" method="post" action="#">
+                                            <!-- Add a dropdown selection -->
+                                            <div class="input-field">
+                                                <select class="form-control" name="option" id="option" required>
+                                                    <option value="" disabled selected>Select a product</option>
+                                                    <option value="Option1">AwanHeiTech</option>
+                                                    <option value="Option2">Kolleq</option>
+                                                    <option value="Option3">Secure-X</option>
+                                                    <option value="Option4">Others</option>
+                                                </select>
+                                            </div>
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
                                             <div class="input-field">
                                                 <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+                                            </div>
+                                            <!-- Add phone number field -->
+                                            <div class="input-field">
+                                                <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Phone Number">
                                             </div>
                                             <div class="input-field">
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>

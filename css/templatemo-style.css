@@ -396,7 +396,7 @@ a#logo {
   display:inline-block;
   line-height:50px;
   text-align:center;
-  background: rgba(255, 255, 255, 0.1);
+  background: #29346F;
   color: rgba(255,255,255,1);
   font-size:18px;
 }

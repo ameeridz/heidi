@@ -639,7 +639,7 @@ a#logo {
 .portfolio-item .thumb-inner h4 {
   margin-bottom: 0;
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 .portfolio-item .thumb-inner p {
   opacity: 0;

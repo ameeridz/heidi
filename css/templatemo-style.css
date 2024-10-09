@@ -7,13 +7,14 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font: 15px/1.6 'Raleway', Arial, Helvetica, sans-serif;
-  color: #fff;
+  font: 15px/1.6 'montserrat', Arial, Helvetica, sans-serif;
+  color: #29346f;
   text-align:center;
   background: #222;
 }
 img {
   border: 0;
+  border-radius: 0;
   max-width: 100%;
 }
 html {
@@ -111,10 +112,10 @@ video {
 #video:after {
   content: '';
   opacity: 0.85;
-  background: #5900ff; /* Old browsers */
-  background: -moz-linear-gradient(top, #5900ff 0%, #5900ff 100%); /* FF3.6-15 */
+  background: #8a898d00; /* Old browsers */
+  background: -moz-linear-gradient(top, #0e002700 0%, #5900ff 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #270041 0%,#5900ff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #000000 0%,#000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #0d002200 0%,#4e003700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#180725' , endColorstr='#180725',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
@@ -300,7 +301,7 @@ a#logo {
   margin-left: 30px;
 }
 .navbar-nav li a {
-  color:#fff;
+  color:#51346F;
   font-size: 18px;
   text-decoration:none;
   display:block;
@@ -311,7 +312,7 @@ a#logo {
   content:'';
   display:block;
   height: 2px;
-  background:#fff;
+  background:#29346f;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transform:scale(0);
@@ -414,20 +415,20 @@ a#logo {
   font-size: 32px;
   display: block;
   text-transform: uppercase;
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 500;
+  line-height: 3.5;
   letter-spacing: 0.02em;
 }
 .welcome-box p {
-  max-width: 620px;
+  max-width: 1000px;
   width:100%;
-  margin:0 auto 30px;
-  color: #fff;
+  margin:30px auto 30px;
+  color: #29346f;
 }
 .welcome-title {
   font-weight: 700;
   font-size: 120px;
-  margin-bottom: 10px;
+  margin-bottom: 90px;
   letter-spacing:0.02em;
 }
 .welcome-title span {
@@ -471,7 +472,7 @@ a#logo {
 .about-img img {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
-  box-shadow: 0 0 40px rgba(0,0,0,.3);
+  box-shadow: 0 0 40px rgba(0,0,0,.0);
 }
 .about-contentbox {
   margin-top: 80px;

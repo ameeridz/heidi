@@ -196,9 +196,9 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  background: -moz-linear-gradient(left, #55063b 0%, #29346F 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #70084d 0%,#29346F 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #70084d 0%,#29346F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(left, #ff86d7 0%, #899aff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff86d7 0%,#b4bfff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff86d7 0%,#899aff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
   height: 100%;
   left: 0;
@@ -688,10 +688,10 @@ a#logo {
 }
 .form-control {
   height: 50px;
-  color:#fff;
+  color:#29346F;
   border: none;
   background:rgba(250,250,250,0.05);
-  border: 1px solid rgba(250,250,250,0.5);
+  border: 1px solid #29346F;
   border-radius: 10px;
   padding:4px 22px;
   font-size:14px;

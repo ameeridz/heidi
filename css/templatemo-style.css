@@ -465,8 +465,8 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 .about-img {
-  margin: 40px auto 40px;
-  margin-top:35px;
+  margin: 40px auto 0px;
+  margin-top:0px;
   position:relative;
 }
 .about-img img {

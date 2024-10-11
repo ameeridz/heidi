@@ -44,9 +44,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #A83882;
+  color: #29346F;
   outline: none;
-  text-decoration: underline;
 }
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
   a:active {

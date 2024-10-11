@@ -44,7 +44,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #ffffff;
+  color: #A83882;
   outline: none;
   text-decoration:none
 }
@@ -151,7 +151,7 @@ video {
 }
 .btn:hover, .btn:focus {
   color:#29346F;
-  border-color:#29346F;
+  border-color:#A83882;
   background:none;
 }
 .btn:focus {
@@ -171,8 +171,8 @@ video {
   border-width:1px;
 }
 .btn.btn-outline:hover, .btn.btn-outline:focus {
-  background:#fff;
-  color:#222;
+  background:#A83882;
+  color:#29346F;
 }
 .btn.btn-dark {
   color: #222;
@@ -502,7 +502,7 @@ a#logo {
   background: rgba(122, 122, 122, 0.25);
 }
 .counter-box span {
-  font-size: 26px;
+  font-size: 15px;
   font-weight: 700;
 }
 .counter-icon {
@@ -519,7 +519,7 @@ a#logo {
 }
 .count-number, .counted {
   display:block;
-  font-size:36px;
+  font-size:15px;
   font-weight:700;
   line-height:1;
   margin-bottom:10px;
@@ -650,7 +650,7 @@ a#logo {
   position: relative;
   opacity: 1;
   visibility: visible;
-  color: #4a4a4a;
+  color: #A83882;
 }
 .portfolio-item:hover .thumb-inner {
   border-radius: 10px;
@@ -659,7 +659,7 @@ a#logo {
 }
 .portfolio-item:hover .thumb-inner h4 {
    margin-top: 10%;
-  color: #1e1e1e;
+  color: #29346F;
   margin-bottom: 20px;
 }
 

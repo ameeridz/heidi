@@ -44,7 +44,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: #A83882;
   outline: none;
   text-decoration: underline;
 }
@@ -511,8 +511,8 @@ a#logo {
   opacity: 0.75;
 }
 .facts-list .item:hover {
-  background:#fff;
-  color:#29346F;
+  background:#A83882;
+  color:#ffffff;
 }
 .facts-list .owl-dots {
   margin-bottom: 30px;

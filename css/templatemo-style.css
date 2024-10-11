@@ -131,7 +131,7 @@ video {
   padding:30px 30px 0;
 }
 .fp-scrollable {
-  height:calc(100vh - 200px) !important;
+  height:calc(100vh - 100px) !important;
 }
 #fp-nav ul li a span {
  display: none;
@@ -466,7 +466,6 @@ a#logo {
 ================================================*/
 .about-img {
   margin: 40px auto 0px;
-  margin-top:0px;
   position:relative;
 }
 .about-img img {
@@ -513,7 +512,7 @@ a#logo {
 }
 .facts-list .item:hover {
   background:#fff;
-  color:#1e1e1e;
+  color:#29346F;
 }
 .facts-list .owl-dots {
   margin-bottom: 30px;
@@ -573,6 +572,7 @@ a#logo {
 .service-box h3 {
   font-size:22px;
   font-weight:700;
+  text-transform: capitalize;
   margin-bottom: 10px;
   padding: 10px;
 }

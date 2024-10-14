@@ -302,7 +302,7 @@ a#logo {
 }
 .navbar-nav li a {
   color:#29346F;
-  font-size: 18px;
+  font-size: 22px;
   text-decoration:none;
   display:block;
   font-weight: 900;
@@ -693,7 +693,7 @@ a#logo {
   border: 1px solid #29346F;
   border-radius: 10px;
   padding:4px 22px;
-  font-size:14px;
+  font-size:17px;
   margin-bottom: 30px;
 }
 .form-control:focus {
@@ -886,13 +886,13 @@ textarea.form-control {
 /* Initially hidden */
 #chatbot-questions {
   display: none;
-  background-color: #fff;
+  background-color: #ffffff25;
   position: absolute;
   top: 100%; 
   right: 0;
   list-style-type: none;
   padding: 0px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
   z-index: 999;
   width: 140px;
 }

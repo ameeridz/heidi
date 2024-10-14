@@ -401,7 +401,7 @@ a#logo {
   font-size:18px;
 }
 .social-icons li a:hover {
-  color:#1e1e1e;
+  color:#29346F;
   background-color: #fff;
 }
 /*==============================================
@@ -561,13 +561,13 @@ a#logo {
   font-size: 64px;
 }
 .service-box {
-  font-size:15px;
+  font-size:18px;
   padding:40px 20px;
   height:100%;
 }
 .services-list .item:hover {
-  background-color: #fff;
-  color: #1e1e1e;
+  background-color: #ac819d;
+  color: #29346F;
 }
 .service-box h3 {
   font-size:22px;

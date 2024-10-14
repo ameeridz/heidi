@@ -7,7 +7,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font: 15px/1.6 'comfortaa', Arial, Helvetica, sans-serif;
+  font: 17px/1.6 'comfortaa', Arial, Helvetica, sans-serif;
   color: #29346f;
   text-align:center;
   background: #222;
@@ -150,9 +150,9 @@ video {
   border-radius: 10px;
 }
 .btn:hover, .btn:focus {
-  color:#29346F;
+  color:#fff;
   border-color:#A83882;
-  background:none;
+  background:#A83882;
 }
 .btn:focus {
   box-shadow:none;
@@ -305,7 +305,7 @@ a#logo {
   font-size: 18px;
   text-decoration:none;
   display:block;
-  font-weight: 500;
+  font-weight: 900;
   opacity: 0.9;
 }
 .navbar-nav li a:after {
@@ -479,9 +479,9 @@ a#logo {
   line-height:1.8;
 }
 .about-contentbox span {
-  font-size: 24px;
+  font-size: 25px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 900;
 }
 .about-contentbox h2 {
   font-size: 50px;
@@ -497,13 +497,13 @@ a#logo {
   width: 100%;
   display: inline-block;
   text-transform:capitalize;
-  font-size:14px;
+  font-size:15px;
   padding: 30px 0px;
   background: rgba(122, 122, 122, 0.25);
 }
 .counter-box span {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 900;
 }
 .counter-icon {
   font-size: 30px;

@@ -536,8 +536,8 @@ a#logo {
   font-weight: 300;
 }
 .services-list .item {
-  background-color: rgba(255, 238, 253, 0.486);
-  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 30px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   overflow: hidden; /* Ensure content remains inside the blurred container */
@@ -567,10 +567,10 @@ a#logo {
   height:100%;
 }
 .services-list .item:hover {
-  background-color: #29346F; /* Adjust the background transparency */
+  background-color: rgba(68, 76, 153, 0.459); /* Adjust the background transparency */
   color: #fff; /* Text color on hover */
-  backdrop-filter: blur(5px); /* Apply blur effect */
-  opacity: 0.85; /* Make the item slightly transparent */
+  backdrop-filter: blur(3px); /* Apply blur effect */
+  opacity: 0.55; /* Make the item slightly transparent */
 }
 .service-box h3 {
   font-size:22px;

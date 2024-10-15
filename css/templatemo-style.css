@@ -928,14 +928,6 @@ textarea.form-control {
   font-size: 15px;
 }
 
-.chat-widget {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999; /* Ensures the chat button stays on top */
-}
-
-
 .chat-button {
   background-color: #29346F;
   border-radius: 50%;
@@ -1022,11 +1014,13 @@ textarea.form-control {
   font-size: 20px;
   cursor: pointer;
 }
+
 /* Chat Widget Styles */
 .chat-widget {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 9999; /* Ensures the chat button stays on top */
 }
 
 .chat-button {
@@ -1051,7 +1045,7 @@ textarea.form-control {
   border-radius: 8px;
   padding: 15px;
   position: absolute;
-  right: 100px;
+  right: 85px;
   top: 0px;
   display: none;
   width: 300px;
@@ -1114,4 +1108,77 @@ textarea.form-control {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+}
+
+/* Container styling */
+.faq-container {
+  display: flex;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+/* Categories styling */
+.faq-categories {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq-categories button {
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faq-categories button:hover {
+  background-color: #29346F;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* FAQ content styling */
+.faq-contents {
+  flex: 3;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  display: none;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
 }

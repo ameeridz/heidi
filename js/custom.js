@@ -209,3 +209,24 @@ document.getElementById("chatbot-icon").addEventListener("click", function() {
         chatbotQuestions.style.display = "none";
     }
 });
+
+// Function to toggle FAQ question answers
+function toggleFAQ(faqId) {
+    const faqAnswer = document.getElementById(faqId);
+    const faqItem = faqAnswer.closest('.faq-item');
+  
+    // Toggle active class for the current FAQ item
+    faqItem.classList.toggle('active');
+  }
+  
+  // Function to switch between categories
+  function showCategory(categoryId) {
+    const categories = document.querySelectorAll('.faq-category');
+    categories.forEach(category => {
+      category.style.display = 'none';
+    });
+  
+    // Show the selected category
+    document.getElementById(categoryId).style.display = 'block';
+  }
+  

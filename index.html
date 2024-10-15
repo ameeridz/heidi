@@ -144,7 +144,6 @@
                                                 </div>
                                             </div>
                                             <br>
-                                            <button class="btn" type="button" onclick="window.location.href='#slide03';">Explore our Portfolios</button>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -153,9 +152,9 @@
                                                 <img src="images/heidigirl.png" class="rounded" alt="">
                                             </figure>
                                         </a>                                        
-                                      <br><br>  <button class="btn" type="button" onclick="window.location.href='#slide03';">Check me out!</button>
                                     </div>
                                 </div>
+                                  <button class="btn" type="button" onclick="window.location.href='#slide03';">Check me out!</button>
                             </div>
                         </div>
                     </div>
@@ -408,99 +407,57 @@
                                 <span>Frequently Asked Questions</span>
                                 <h2>FAQs</h2>
                             </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>What products does heidi offer?</h4>
-                                                <p>heidi offers a variety of products including:
-                                                    <br><br>
-                                                    Smart City Solutions
-                                                    <br>
-                                                    Kolleq
-                                                    <br>
-                                                    HeiAwan Cloud Services
-                                                    <br>
-                                                    Cyber Security Solutions (Secure-X)
-                                                    <br>
-                                                    FinTech Solutions (e.g., T-Pay, E-Wallet)
-                                                    </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>How long has HeiTech Padu Berhad been in operation?</h4>
-                                                <p>HeiTech Padu Berhad has over 30 years of experience in the industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Who are the team members behind heidi?</h4>
-                                                <p>The heidi team consists of many dedicated professionals with diverse expertise in technology and solutions.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>How can I get support for my products?</h4>
-                                                <p>For support inquiries, you can contact us at <strong><a href="tel: +(603)8603 3000">+(603) 8603 3000</a></strong> or email <strong><a href="mailto:ccc@heitech.com.my" class="site-footer-link">ccc@heitech.com.my</a></strong>  </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Can I inquire about specific products?</h4>
-                                                <p>Yes, you can submit a product inquiry through our QR code on the website.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>What is the availability of support services?
-                                                </h4>
-                                                <p>We offer 24-hour uptime and fast support to ensure your services run smoothly.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/robot.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Where is HeiTech Padu Berhad located?</h4>
-                                                <p>Our office is located at <br><strong><a href="https://maps.app.goo.gl/S4RUVTC8PXJLMNQC6">No 1, Jalan Astaka U8/81, <br> Seksyen U8, <br> 40150 Shah Alam, Selangor</a></strong> </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="faq-container">
+                                <!-- Categories -->
+                                <div class="faq-categories">
+                                  <button onclick="showCategory('category1')">AwanHeiTech</button>
+                                  <button onclick="showCategory('category2')">Kolleq</button>
+                                  <button onclick="showCategory('category3')">Secure-X</button>
                                 </div>
-                            </div>
+                              
+                                <!-- FAQ Section -->
+                                <div class="faq-contents">
+                                  <!-- Category 1 (Network Services) -->
+                                  <div class="faq-category" id="category1">
+                                    <div class="faq-item">
+                                      <div class="faq-question" onclick="toggleFAQ('faq1')">
+                                        <span>What is Network Service?</span>
+                                        <i class="faq-icon"></i>
+                                      </div>
+                                      <div class="faq-answer" id="faq1">
+                                        <p>Network services refer to services that provide internet or network functionality, including CDN, DNS, etc.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              
+                                  <!-- Category 2 (Security) -->
+                                  <div class="faq-category" id="category2" style="display:none">
+                                    <div class="faq-item">
+                                      <div class="faq-question" onclick="toggleFAQ('faq3')">
+                                        <span>What is WAF?</span>
+                                        <i class="faq-icon"></i>
+                                      </div>
+                                      <div class="faq-answer" id="faq3">
+                                        <p>A Web Application Firewall (WAF) protects web apps by filtering and monitoring HTTP traffic.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              
+                                  <!-- Category 3 (Compute) -->
+                                  <div class="faq-category" id="category3" style="display:none">
+                                    <div class="faq-item">
+                                      <div class="faq-question" onclick="toggleFAQ('faq5')">
+                                        <span>What is cloud compute?</span>
+                                        <i class="faq-icon"></i>
+                                      </div>
+                                      <div class="faq-answer" id="faq5">
+                                        <p>Cloud compute allows you to run workloads in the cloud without managing underlying infrastructure.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
                         </div>
                     </div>
                 </div>

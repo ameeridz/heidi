@@ -138,16 +138,16 @@ video {
 }
 
 .btn {
-  background: #29346F;
-  color: #ffffff;
+  background: #29336f00;
+  color: #A83882;
   text-align:center;
   line-height:52px;
   padding:0 20px;
-  border-radius: 0px;
+  border-radius: 10px;
   text-transform: none;
   font-weight: 500;
-  border:2px solid transparent;
-  border-radius: 10px;
+  border-color: #A83882;
+  border-radius: 15px;
   letter-spacing: 1.5px;
 }
 .btn:hover, .btn:focus {

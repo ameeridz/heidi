@@ -595,22 +595,34 @@
                 <li><a href="https://www.instagram.com/heitechdigital_" target="blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="#top" target="blank" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
                 <li><a href="#slide01" title="go to top"><i class="fa fa-arrow-up"></i></a></li>
-        
-                <!-- Chatbot icon -->
-                <li>
-                    <a href="#" id="chatbot-icon"><i class="fa fa-comments"></i></a>
-                    <!-- Move dropdown here inside the li -->
-                    <div id="chatbot-questions" style="display: none;">
-                        <ul>
-                            <li><a href="#">Chat with heidi</a></li>
-                            <li><a href="#">Inquiry</a></li>
-                            <li><a href="#">Support</a></li>
-                        </ul>
-                    </div>
-                </li>
             </ul>
         </div>        
     </div>  
+
+    <div class="chat-widget">
+        <div class="chat-button" id="chat-button">
+          <img src="images/heidigirl.png" alt="Chat Icon" />
+          <div class="hover-message" id="hover-message">
+            Welcome back! 👋 <br>Need to speak with heidi?
+          </div>
+        </div>
+      
+        <div class="chat-popup" id="chat-popup">
+          <div class="chat-header">
+            <span>FastBot</span>
+            <button class="close-btn" id="close-popup">&times;</button>
+          </div>
+          <div class="chat-body">
+            <p>Welcome back! 👋 Need to speak with heidi?</p>
+            <button class="chat-option">Yes, please connect me</button>
+            <button class="chat-option">I'm still checking out the site</button>
+            <button class="chat-option">I'm looking for something else</button>
+          </div>
+          <p class="chat-footer">
+            You consent to using your info per our privacy policy.
+          </p>
+        </div>
+      </div>
 
     <script src="js/jquery.js"></script>
 
@@ -627,6 +639,9 @@
     <script src="js/form.js"></script>
 
     <script src="js/custom.js"></script>
+
+    <script src="chat.js"></script>
+
 
 
   </body>

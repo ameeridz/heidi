@@ -569,10 +569,10 @@ a#logo {
   height:100%;
 }
 .services-list .item:hover {
-  background-color: rgba(68, 76, 153, 0.459); /* Adjust the background transparency */
-  color: #fff; /* Text color on hover */
+  background-color: rgba(239, 241, 255, 0.466); /* Adjust the background transparency */
+  color: #29346F; /* Text color on hover */
   backdrop-filter: blur(3px); /* Apply blur effect */
-  opacity: 0.55; /* Make the item slightly transparent */
+  opacity: 0.3; /* Make the item slightly transparent */
 }
 .service-box h3 {
   font-size:22px;
@@ -1020,7 +1020,7 @@ textarea.form-control {
 .chat-widget {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 30px;
   z-index: 9999; /* Ensures the chat button stays on top */
 }
 

@@ -65,6 +65,8 @@ h6 {
   line-height: 1.2;
   margin: 0 0 20px;
   font-weight: 600;
+  letter-spacing: 1px;
+
 }
 h1,
 h2 {
@@ -138,14 +140,14 @@ video {
 }
 
 .btn {
-  background: #29336f00;
+  background: #9dacff00;
   color: #A83882;
   text-align:center;
   line-height:52px;
   padding:0 20px;
   border-radius: 10px;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 700;
   border-color: #A83882;
   border-radius: 15px;
   letter-spacing: 1.5px;
@@ -284,7 +286,6 @@ video {
 a#logo {
   text-decoration: none;
   font-size: 32px;
-  text-transform: uppercase;
   font-weight: 700;
 }
 .navbar {
@@ -313,7 +314,7 @@ a#logo {
   content:'';
   display:block;
   height: 2px;
-  background:#29346f;
+  background:#A83882;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transform:scale(0);
@@ -429,7 +430,7 @@ a#logo {
 .welcome-title {
   font-weight: 700;
   font-size: 120px;
-  margin-bottom: 90px;
+  margin-bottom: 35px;
   letter-spacing:0.02em;
 }
 .welcome-title span {
@@ -475,7 +476,7 @@ a#logo {
   box-shadow: 0 0 40px rgba(0,0,0,.0);
 }
 .about-contentbox {
-  margin-top: 80px;
+  margin-top: 0px;
   text-align:left;
   line-height:1.8;
 }
@@ -1040,7 +1041,7 @@ textarea.form-control {
 }
 
 .hover-message {
-  background-color: #29346F;
+  background-color: #A83882;
   color: #fff;
   border-radius: 8px;
   padding: 15px;
@@ -1049,7 +1050,7 @@ textarea.form-control {
   top: 0px;
   display: none;
   width: 300px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .chat-button:hover .hover-message {
@@ -1129,8 +1130,10 @@ textarea.form-control {
 
 .faq-categories button {
   background-color: #fff;
+  color: #29346F;
   border: none;
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 700;
   text-align: left;
   padding: 10px;
   cursor: pointer;
@@ -1157,8 +1160,8 @@ textarea.form-control {
 
 .faq-question {
   cursor: pointer;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1167,7 +1170,7 @@ textarea.form-control {
 .faq-answer {
   display: none;
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
 }
 

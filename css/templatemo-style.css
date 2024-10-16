@@ -130,7 +130,7 @@ video {
   opacity:0.95;
 }
 .section-inner {
-  padding:90px 30px 0;
+  padding:0px 0px 0;
 }
 .fp-scrollable {
   height:calc(100vh - 100px) !important;
@@ -467,7 +467,7 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 .about-img {
-  margin: 40px auto 0px;
+  margin: 0px auto 0px;
   position:relative;
 }
 .about-img img {
@@ -569,7 +569,7 @@ a#logo {
   height:100%;
 }
 .services-list .item:hover {
-  background-color: rgba(239, 241, 255, 0.466); /* Adjust the background transparency */
+  background-color: rgba(255, 138, 239, 0.25); /* Adjust the background transparency */
   color: #29346F; /* Text color on hover */
   backdrop-filter: blur(3px); /* Apply blur effect */
   opacity: 0.3; /* Make the item slightly transparent */

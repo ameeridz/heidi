@@ -509,6 +509,7 @@ a#logo {
 .counter-icon {
   font-size: 30px;
   margin-bottom: 10px;
+  margin-top: 10px;
   opacity: 1;
 }
 .facts-list .item:hover {

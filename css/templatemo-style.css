@@ -307,7 +307,6 @@ a#logo {
   text-decoration:none;
   display:block;
   font-weight: 600;
-  opacity: 0.75;
 }
 .navbar-nav li a:after {
   content:'';
@@ -326,6 +325,7 @@ a#logo {
 }
 .navbar-nav li a:hover {
   opacity: 1;
+  color: #A83882;
 }
 .navbar-nav li.active a {
   opacity: 1;
@@ -1186,4 +1186,18 @@ textarea.form-control {
 
 .faq-item.active .faq-icon {
   transform: rotate(180deg);
+}
+.shop-now-button {
+  color: white; /* Text color */
+  background-color: #A83882; /* Background color */
+  padding: 8px 16px; /* Button padding */
+  border-radius: 20px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.shop-now-button:hover {
+  color: #fff;
+  background-color: #29346F; /* Darker shade on hover */
 }

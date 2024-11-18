@@ -1129,8 +1129,8 @@ textarea.form-control {
 }
 
 .faq-categories button {
-  background-color: #fff;
-  color: #29346F;
+  background-color: #29346F;
+  color: #FFF;
   border: #29346F;
   width: 225px;
   border-radius: 10px;
@@ -1139,7 +1139,7 @@ textarea.form-control {
   text-align: left;
   padding: 10px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s ease;
 }
 
 .faq-categories button:hover {
@@ -1189,7 +1189,7 @@ textarea.form-control {
 }
 .shop-now-button {
   color: white; /* Text color */
-  background-color: #A83882; /* Background color */
+  background-color: #FFF; /* Background color */
   padding: 8px 16px; /* Button padding */
   border-radius: 20px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
